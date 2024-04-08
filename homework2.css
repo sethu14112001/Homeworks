@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(113, 117, 116);
+}
+.container{
+    display: flex;
+    padding: 190px;
+    column-gap: 40px;
+}
+.first-column{
+    flex: 4;
+}
+.header h1{
+    color: black;
+    font-size: 80px;
+}
+.header{
+    margin-bottom: 80px;
+}
+.email-address{
+    font-size: small;
+    color: black;
+}
+.objective-section{
+    margin-bottom: 30px;
+}
+.objective{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(6, 73, 218);
+    line-height: 50px;
+}
+.education-section{
+    margin-bottom: 30px;
+}
+.bold-section{
+    font-weight: bold;
+    color: black;
+}
+.bold-section span{
+    font-weight: normal;
+    font-style: italic;
+}
+.marketing-manager{
+    margin-bottom: 20px;
+}
+ul{
+    padding-left: 76px;
+    line-height: 26px;
+}
+.title-section{
+    line-height: 28px;
+    padding-bottom: 18px;
+}
+.second-column{
+    flex: 1.25;
+}
+.address{
+    font-size: large;
+    color: black;
+    margin-bottom: 156px;
+}
+.skills{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.certifications{
+    line-height: 30px;
+}
